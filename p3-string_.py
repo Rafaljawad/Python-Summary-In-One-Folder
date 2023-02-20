@@ -130,3 +130,23 @@ lang = "-".join(lang)
 print(lang)#P-y-t-h-o-n
 lang = "_".join(lang)
 print(lang)#P_-_y_-_t_-_h_-_o_-_n because the code run line by line and lang already joined by -
+
+
+
+
+
+a = "a b A B C D e K r 10 30 &".split()
+
+print(a)#['a', 'b', 'A', 'B', 'C', 'D', 'e', 'K', 'r', '10', '30', '&']
+
+a.reverse()
+
+print(a)#['&', '30', '10', 'r', 'K', 'e', 'D', 'C', 'B', 'A', 'b', 'a']
+
+a.sort() #ascii
+
+print(a)#['&', '10', '30', 'A', 'B', 'C', 'D', 'K', 'a', 'b', 'e', 'r']
+
+
+for ch in "a b A B C D e K r 10 30 &":
+    print(ch , ord(ch) , sep="->")
