@@ -48,6 +48,16 @@ n=12.567488
 print(round(n,2))#12.57
 
 
+
+# format method
+#to make n of decimal points without rounding we use format
+#format(num,'.2f')-->add 2 decimalpoints to num 
+#format(num,'.3f')-->add 3 decimalpoints to num and so on
+n=12
+f_num=format(n,'.2f')
+print(f_num)#12.00
+
+
 # sum() Sums the items of an iterable
 s=[1,4,7,8]
 print(sum(s))
